@@ -1,7 +1,7 @@
 
 # BlockHarbor Proving Ground - what is a great default password?
 
-**Category:** OSINT
+**Category:** OSINT<br>
 **Points:** 1
 
 ## TL;DR
