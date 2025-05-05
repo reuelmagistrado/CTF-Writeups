@@ -28,6 +28,7 @@ I typed:
 ip link
 ```
 ![VCAN0](images/can-interface.png)
+<br>
 And boom! Among the output, I spotted our answer: **`vcan0`**
 
 
