@@ -16,12 +16,12 @@ This challenge introduces us to UDS (Unified Diagnostic Services), a **diagnosti
 ### Setting Up the Environment
 
 After launching the UDS Challenge Simulation terminal, I needed to organize my workspace efficiently. Using tmux, I split the terminal into three separate windows to:
-
-> CTRL+B > SHIFT+' = split terminal horizontally
-> CTRL+B > SHIT+5 = split terminal vertically
-> CTRL+B > arrowkeys = navigate between panes
-> CTRL+B > x > y = close open panes
-
+```
+CTRL+B > SHIFT+' = split terminal horizontally
+CTRL+B > SHIT+5 = split terminal vertically
+CTRL+B > arrowkeys = navigate between panes
+CTRL+B > x > y = close open panes
+```
 1.  Monitor all CAN traffic between specific addresses
 2.  Listen for responses from the ECU
 3.  Send diagnostic requests to the ECU
