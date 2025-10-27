@@ -22,7 +22,7 @@ refer to RAMN DBC file (https://github.com/ToyotaInfoTech/RAMN/blob/main/misc/bu
 
 ## TL;DR
 
-This challenge required physically hijacking CAN bus control of a simulated vehicle in CARLA by connecting to the RAMN (Redacted Automotive Miniature Network) board. The key was using UDS (Unified Diagnostic Services) Routine Control commands to stop the autopilot ECUs from transmitting, then sending custom CAN messages to manually drive the vehicle around the map.
+This challenge required physically hijacking CAN bus control of a simulated vehicle in CARLA by connecting to the RAMN (Resistant Automotive Miniature Network) board. The key was using UDS (Unified Diagnostic Services) Routine Control commands to stop the autopilot ECUs from transmitting, then sending custom CAN messages to manually drive the vehicle around the map.
 
 **Flag:** `SICW_CAR{drive_by_two_wires}`
 
