@@ -300,7 +300,7 @@ By coordinating these commands via keyboard input, I successfully completed a fu
 
 - **Kali Linux**: Operating system
 - **peakCAN adapter**: Hardware CAN interface
-- **can-utils**: Linux CAN utilities (`ip`, `cansend`, `candump`, `isotpsend`)
+- **can-utils**: Linux CAN utilities (`ip`, `cansend`, `candump`, `isotpsend`, `isotpdump`)
 - **RAMN Board**: Target hardware platform
 - **CARLA Simulator**: Vehicle simulation environment
 
@@ -310,8 +310,8 @@ By coordinating these commands via keyboard input, I successfully completed a fu
 
 - [RAMN GitHub Repository](https://github.com/ToyotaInfoTech/RAMN)
 - [RAMN DBC File](https://github.com/ToyotaInfoTech/RAMN/blob/main/misc/busmaster_ramn.dbc)
-- [ISO 14229-1: UDS Specification](https://www.iso.org/standard/72439.html)
-- [ISO 15765-2: ISO-TP Protocol](https://www.iso.org/standard/66574.html)
+- [RAMN Standard UDS Services](https://ramn.readthedocs.io/en/latest/userguide/diag_tutorial.html#ramn-standard-uds-services)
+- [RAMN UDS Services - Routine Control](https://ramn.readthedocs.io/en/latest/userguide/diag_tutorial.html#routine-control-0x31)
 
 ---
 
@@ -329,7 +329,7 @@ A fitting flag name that references the two wires (CANH and CANL) used in the CA
 
 ## Conclusion
 
-This was an excellent hands-on automotive security challenge that combined hardware hacking, protocol analysis, and reverse engineering. The requirement to physically interact with the RAMN board made it particularly memorable and educational.
+This was an excellent hands-on automotive security challenge that combined hardware hacking, protocol analysis, and reverse engineering. It was fascinating to see how this mirrored real-world behavior, disrupting normal ECU communication and forcing dependent modules into fail-safe or spoof-accepting states. The requirement to physically interact with the RAMN board made it particularly memorable and educational. 
 
 Congratulations to SPIRITCYBER for creating such an engaging challenge, and huge thanks to our team for the collaborative effort that earned us 3rd place! 🥉
 
